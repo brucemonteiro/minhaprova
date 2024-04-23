@@ -1,0 +1,50 @@
+package meuapp;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Main {
+
+    public Main() {
+    }
+
+    public static void main(String[] args, String votoEm) {
+        Scanner scanner = new Scanner(System.in);
+
+        ArrayList<String> jogador = new ArrayList<String>();
+
+        jogador.add("Alane Dias");
+        jogador.add("Beatriz Reis");
+        jogador.add("Davi Brito");
+        jogador.add("Deniziane Ferreira");
+        jogador.add("Fernanda Bande");
+        jogador.add("Giovanna Lima");
+        jogador.add("Giovanna Pitel");
+        jogador.add("Isabelle Nogueira");
+        jogador.add("Juninho");
+        jogador.add("Leidy Elin");
+        jogador.add("Lucas Henrique");
+        jogador.add("Lucas Luigi");
+        jogador.add("Lucas Pizane");
+        jogador.add("Marcus Vinicius");
+        jogador.add("Matteus Amaral");
+        jogador.add("Maycon Cosmer");
+        jogador.add("MC Bin Laden");
+        jogador.add("Michel Nogueira");
+        jogador.add("Nizam");
+        jogador.add("Raquele Cardozo");
+        jogador.add("Rodriguinho");
+        jogador.add("Thalyta Alves");
+        jogador.add("Vanessa Lopes");
+        jogador.add("Vinicius Rodrigues");
+        jogador.add("Wanessa Camargo");
+        jogador.add("Yasmin Brunet");
+
+        int i = 1;
+
+        System.out.print("Em quem voce vota para sair da casa?:");
+        votoEm = scanner.nextLine();
+
+
+        public void incrementaUmVoto() {
+            this.votos = getVotos() + 1;
